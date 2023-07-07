@@ -30,5 +30,10 @@ figure.foto-legenda figcaption{
     transition: opacity 2s;
 }
 figure.foto-legenda:hover figcaption{
-    opacity: 1;
-}
+    opacity: 1;}
+
+    nav#esse { 
+        list-style: none;
+        text-transform: uppercase;
+
+    }
