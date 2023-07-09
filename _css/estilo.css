@@ -1,4 +1,8 @@
 @charset "utf8";
+@font-face {
+    font-family: 'fontlogo';
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
 
 body {
     background-color: #8b8282;
@@ -26,7 +30,7 @@ header#cabecalho{
     background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
 }
 header#cabecalho h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'fontlogo';
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
