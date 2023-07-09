@@ -32,8 +32,23 @@ figure.foto-legenda figcaption{
 figure.foto-legenda:hover figcaption{
     opacity: 1;}
 
-    nav#esse { 
+    nav#esse{
+        display: block;
+        text-transform: uppercase;
+        position: absolute;
+        top: -20px;
+        left: 300px;
+    }
+    nav#esse ul{ 
         list-style: none;
         text-transform: uppercase;
-
+    }
+    nav#esse li{
+        display: inline-block;
+        background-color: #dddddd;
+        padding: 10px;
+        margin: 2px;
+    }
+    nav#esse h1{
+        display: none;
     }
