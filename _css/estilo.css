@@ -1,12 +1,44 @@
 @charset "utf8";
 
 body {
-    background-color: white;
+    background-color: #8b8282;
     color: rgba(0,0,01);
+}
+div#interface{
+    width: 900px;
+    background-color: #ffffff;
+    margin: auto auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px 10px 10px 10px;
 }
 p {
     text-align: justify;
     text-indent: 50px;
+}
+img#icone{
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
+}
+header#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
 }
 figure.foto-legenda{
     position:relative;
@@ -33,6 +65,7 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;}
 
     nav#esse{
+        padding: auto;
         display: block;
         text-transform: uppercase;
         position: absolute;
@@ -48,7 +81,18 @@ figure.foto-legenda:hover figcaption{
         background-color: #dddddd;
         padding: 10px;
         margin: 2px;
+        transition: 1s;
+    }
+    nav#esse li:hover{
+        background-color: #606060;
     }
     nav#esse h1{
         display: none;
+    }
+    nav#esse a{
+        color:black;
+        text-decoration: none;
+    }
+    nav#esse a:hover{
+        color: #ffffff; 
     }
