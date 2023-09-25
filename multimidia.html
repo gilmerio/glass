@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo Sobre Google Glass</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <script src="javascript/funcoes.js"></script>
 <body>
@@ -17,30 +18,38 @@
                 <h1>Google Glass</h1>
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
-            <img id="icone"src="imagens/glass-oculos-preto-peq.png">
+            <img id="icone"src="imagens/multimidia.png">
 
             <nav id="esse">
             <h1>Menu Principal</h1>
             <ul>
-            <li onmouseover= "mudaFOTO('imagens/home.png')" onmouseout="mudaFOTO('imagens/glass-oculos-preto-peq.png')" ><a href="index.html">Home</a></li>
-            <li onmouseover="mudaFOTO('imagens/especificacoes.png')" onmouseout="mudaFOTO('imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
-            <li onmouseover="mudaFOTO('imagens/fotos.png')" onmouseout="mudaFOTO('imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
-            <li onmouseover="mudaFOTO('imagens/multimidia.png')" onmouseout="mudaFOTO('imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
-            <li onmouseover="mudaFOTO('imagens/contato.png')" onmouseout="mudaFOTO('imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            <li onmouseover= "mudaFOTO('imagens/home.png')" onmouseout="mudaFOTO('imagens/multimidia.png')" ><a href="index.html">Home</a></li>
+            <li onmouseover="mudaFOTO('imagens/especificacoes.png')" onmouseout="mudaFOTO('imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+            <li onmouseover="mudaFOTO('imagens/fotos.png')" onmouseout="mudaFOTO('imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudaFOTO('imagens/multimidia.png')" onmouseout="mudaFOTO('imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+            <li onmouseover="mudaFOTO('imagens/contato.png')" onmouseout="mudaFOTO('imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
             </ul>
             </nav>
         </header>
-
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+        <section id="corpo-full">
+            <article id="noticia-peincipal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Videos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
+                <div id="tv-radio" >
+                    <audio src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" id="musica" controls="controls">
+                        desculpe, mas nao foi possivel carregar o audio
+                    </audio>
+                    <video src="media/getting-started.mp4" id="video" controls="controls" poster="imagens/video-mini03.jpg">
+                        desculpe, nao foi possivel carregar o video
+                    </video>
+                </div>
+            </article>
 <footer id="rodape">
     <p>
     Copyright &copy; 2013 - by Gustavo Guanabara <br>
